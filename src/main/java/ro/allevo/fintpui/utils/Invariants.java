@@ -31,7 +31,8 @@ public class Invariants {
 			"TransformMessage", "UpdateLiquidities", "WaitOn");
 
 	public static final List<String> RULES_ACTIONS_NO_PARAM = Arrays.asList(
-			"Aggregate", "ChangeValueDate", "Complete", "HoldQueue",
+			"Aggregate", "ChangeValueDate", 
+			"Complete", "HoldQueue",
 			"ReleaseQueue", "UpdateLiquidities");
 
 	public static final List<String> RULES_ACTIONS_WITH_PARAM = Arrays.asList(
